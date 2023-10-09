@@ -1,0 +1,129 @@
+body {
+  /* background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"); */
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #e7a311;
+  margin: 30px;
+  padding: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  /* background-color: rgb(26, 25, 25); */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e7a311;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(200, 253, 255);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration-line: underline;
+  background-color: palegoldenrod;
+  color: black
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 80px;
+  column-gap: 112px;
+  align-items: center;
+}
+.pizza {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/45.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.two {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/7777.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.three {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/p1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.four {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/rrr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.five {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/899.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.six {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/jkjkkk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
+}
+
+.Pizza p {
+  display: none;
+}
+
+.Pizza:hover p {
+  display: block;
+}
